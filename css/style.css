@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 20px;
+  background-color: navy;
+  margin: 0;
+  text-align: center;
+}
+
+h2, legend b{
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+section {
+  width: 95%;
+  margin: 0 auto;
+}
+
+legend {
+  font-size: 1.3rem;
+  margin: 15px 0;
+}
+
+
+
+
+
+/*---------- class styles ----------*/
+
+.about {
+  text-align: center;
+  border-bottom: 5px solid black;
+}
+
+.form-section {
+  margin-top: 3px;
+  border-top: 2px solid black;
+}
+
+.contact-info-bottom {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px
+}
+
+.contact-fields {
+  display: block;
+  margin: 7px auto 12px;
+  height: 47px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #F1F1F1;
+  border: none;
+}
+
+.check-space {
+  margin-bottom: 15px;
+}
+
+.block {
+  display: block;
+}
+
+input#zip {
+  width: 50%;
+  margin-left: 0;
+}
+
+#state::placeholder {
+  text-align: left;
+}
+
+::placeholder {
+  text-align: right;
+  margin-right: 10px;
+}
